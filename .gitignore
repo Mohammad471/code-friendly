@@ -1,0 +1,22 @@
+# Node
+node_modules/
+
+# React
+dist/
+
+# Spring
+target/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
