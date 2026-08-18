@@ -2,7 +2,7 @@
 
 ## Learn Smarter. Compare Better. Build Faster.
 
-Code-Friendly is an AI-powered learning platform designed for engineering students.
+Code-Friendly is a browser-based learning platform for B.Tech students.
 
 It provides:
 
@@ -17,20 +17,23 @@ It provides:
 
 ## Tech Stack
 
-Frontend
-- React
-- TypeScript
-- Tailwind CSS
+- Frontend: HTML5, CSS3, Bootstrap 5, vanilla JavaScript
+- Backend: Java 21, Spring Boot 3, Spring Security, JWT
+- Database: MongoDB, with localStorage demo mode in the browser
+- Build: Maven
 
-Backend
-- Spring Boot
-- Java
-- Hibernate
-- JWT
+## Run Website
 
-Database
-- MySQL
+```powershell
+.\start-website.ps1
+```
 
-## Status
+Open `http://127.0.0.1:5501/index.html`.
 
-🚧 Under Development
+## Run Backend
+
+```powershell
+.\start-backend.ps1
+```
+
+The backend uses MongoDB. Configure `MONGO_CLUSTER_URL` in `.env` or use the local default.
