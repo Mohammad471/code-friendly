@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complete Profile | Code-Friendly</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="styles.css?v=2026072501" rel="stylesheet">
+</head>
+<body data-page="profileSetup">
+  <div id="site-nav"></div>
+  <main class="page-pad">
+    <div class="container">
+      <div class="onboarding-shell">
+        <div>
+          <p class="text-uppercase fw-semibold text-primary mb-2">Step 3 of 7</p>
+          <h1 class="display-6 fw-bold">Complete Profile</h1>
+          <p class="text-muted-soft">Add the basic student details used to personalize the learning dashboard.</p>
+          <div class="flow-steps">
+            <div class="flow-step active"><span>1</span><strong>Landing</strong></div>
+            <div class="flow-step active"><span>2</span><strong>Login</strong></div>
+            <div class="flow-step active"><span>3</span><strong>Profile</strong></div>
+            <div class="flow-step"><span>4</span><strong>Year</strong></div>
+            <div class="flow-step"><span>5</span><strong>Goal</strong></div>
+            <div class="flow-step"><span>6</span><strong>Skills</strong></div>
+            <div class="flow-step"><span>7</span><strong>Dashboard</strong></div>
+          </div>
+        </div>
+        <form id="profileSetupForm" class="surface d-grid gap-3">
+          <div>
+            <label for="name" class="form-label">Student Name</label>
+            <input class="form-control" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="college" class="form-label">College</label>
+            <input class="form-control" id="college" name="college" placeholder="Example: Demo Engineering College" required>
+          </div>
+          <div>
+            <label for="branch" class="form-label">Branch</label>
+            <input class="form-control" id="branch" name="branch" placeholder="Example: Computer Science" required>
+          </div>
+          <button class="btn btn-primary btn-icon justify-content-center" type="submit"><i class="bi bi-arrow-right-circle"></i><span>Continue To Year</span></button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="api.js?v=2026072501"></script>
+  <script src="pages.js?v=2026072501"></script>
+</body>
+</html>
